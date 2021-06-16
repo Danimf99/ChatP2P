@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<AnchorPane prefHeight="550.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cliente.controladores.ControladorRegistro">
+    <children>
+        <Button fx:id="btnRegistro" layoutX="163.0" layoutY="339.0"
+                text="Registrarse" />
+        <Button fx:id="btnInicio" layoutX="158.0" layoutY="433.0"  text="Volver atrás" />
+
+        <TextField fx:id="nombre" layoutX="106.0" layoutY="218.0" prefHeight="25.0" prefWidth="189.0">
+            <font>
+                <Font size="14.0" />
+            </font></TextField>
+        <PasswordField fx:id="contrasena" layoutX="106.0" layoutY="288.0" prefHeight="25.0" prefWidth="189.0">
+            <font>
+                <Font size="14.0" />
+            </font></PasswordField>
+        <Label layoutX="106.0" layoutY="181.0" text="Nombre de usuario">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="106.0" layoutY="263.0" text="Contraseña">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="55.0" layoutY="32.0" prefHeight="121.0" prefWidth="298.0" text="Computación Distribuida Chat" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
